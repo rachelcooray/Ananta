@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import heroBg from '../assets/hero-bg.png';
 
 const Hero = () => {
@@ -46,10 +47,10 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.8 }}
                     className="mt-12"
                 >
-                    <a href="/philosophy" className="group inline-flex items-center gap-3 border border-ananta-gold/50 text-ananta-gold px-10 py-4 hover:bg-ananta-gold hover:text-ananta-bg transition-all duration-300 uppercase tracking-widest text-xs font-semibold">
+                    <Link to="/philosophy" className="group inline-flex items-center gap-3 border border-ananta-gold/50 text-ananta-gold px-10 py-4 hover:bg-ananta-gold hover:text-ananta-bg transition-all duration-300 uppercase tracking-widest text-xs font-semibold">
                         Discover The Narrative
                         <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
-                    </a>
+                    </Link>
                 </motion.div>
             </div>
 

@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Formula from '../components/Formula';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
                 <h2 className="text-3xl md:text-5xl font-serif mb-8 leading-tight">
                     A media and narrative consultancy working at the intersection of <span className="text-ananta-gold">strategy, culture, and influence.</span>
                 </h2>
-                <a href="/about" className="text-sm border-b border-white/30 pb-1 hover:text-ananta-gold hover:border-ananta-gold transition-colors">Read Our Story</a>
+                <Link to="/about" className="text-sm border-b border-white/30 pb-1 hover:text-ananta-gold hover:border-ananta-gold transition-colors">Read Our Story</Link>
             </section>
 
             {/* Founder Excerpt */}
@@ -44,9 +45,9 @@ const Home = () => {
             <section className="py-24 bg-ananta-gold text-ananta-bg text-center">
                 <div className="max-w-2xl mx-auto px-6">
                     <h2 className="text-4xl md:text-5xl font-serif mb-8">Ready to define your narrative?</h2>
-                    <a href="/work-with-us" className="inline-block border border-ananta-bg px-12 py-4 text-ananta-bg uppercase tracking-widest text-xs font-bold hover:bg-ananta-bg hover:text-ananta-gold transition-colors duration-300">
+                    <Link to="/work-with-us" className="inline-block border border-ananta-bg px-12 py-4 text-ananta-bg uppercase tracking-widest text-xs font-bold hover:bg-ananta-bg hover:text-ananta-gold transition-colors duration-300">
                         Work With Ananta
-                    </a>
+                    </Link>
                 </div>
             </section>
         </div>

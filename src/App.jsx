@@ -23,7 +23,7 @@ const ScrollToTop = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="antialiased min-h-screen bg-ananta-bg text-white selection:bg-ananta-gold selection:text-black">
         <div className="bg-noise"></div>
         <ScrollToTop />

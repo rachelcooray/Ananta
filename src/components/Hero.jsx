@@ -26,7 +26,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
-                    className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium text-white mb-8 leading-tight"
+                    className="text-4xl md:text-7xl lg:text-8xl font-serif font-medium text-white mb-6 md:mb-8 leading-tight"
                 >
                     We Build <span className="italic text-ananta-gold">Presence.</span>
                 </motion.h1>

@@ -27,7 +27,7 @@ const steps = [
 
 const Formula = ({ compact = false }) => {
     return (
-        <section id="formula" className="py-32 bg-ananta-bg relative overflow-hidden">
+        <section id="formula" className="py-20 md:py-32 bg-ananta-bg relative overflow-hidden">
             {/* Background Elements */}
             <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-ananta-gold/20 to-transparent"></div>
 

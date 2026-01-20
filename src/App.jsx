@@ -13,6 +13,7 @@ import Focus from './pages/Focus';
 import WorkWithUs from './pages/WorkWithUs';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetailPage from './pages/ProjectDetailPage';
+import MaintainedPage from './pages/MaintainedPage';
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/work-with-us" element={<WorkWithUs />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/projects/:id" element={<ProjectDetailPage />} />
+          <Route path="/maintained" element={<MaintainedPage />} />
         </Routes>
         <Footer />
       </div>

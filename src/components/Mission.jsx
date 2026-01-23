@@ -80,16 +80,17 @@ const Mission = () => {
                         <p className="text-gray-500 text-sm uppercase mb-8 tracking-widest">Founder</p>
 
                         <div className="space-y-6 text-gray-300 font-light leading-relaxed">
-                            With over a decade of experience in media, publishing, and strategic communication, Kavisha founded Ananta to respond to a critical shift in the landscape: the need for narrative architecture that transcends traditional PR.
-                        </p>
-                        <p>
-                            Having worked with global brands, political figures, and legacy institutions, he understands that true influence is not about volume - it is about precision.
-                        </p>
+                            <p>
+                                With over a decade of experience in media, publishing, and strategic communication, Kavisha founded Ananta to respond to a critical shift in the landscape: the need for narrative architecture that transcends traditional PR.
+                            </p>
+                            <p>
+                                Having worked with global brands, political figures, and legacy institutions, he understands that true influence is not about volume - it is about precision.
+                            </p>
+                        </div>
+                    </motion.div>
                 </div>
-            </motion.div>
-        </div>
-            </div >
-        </section >
+            </div>
+        </section>
     );
 };
 

@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 const services = [
     {
         title: "Strategy & Narrative Architecture",
-        description: "We define the underlying logic before any creative is produced. This includes message frameworks, positioning, tone, and narrative hierarchy - ensuring that communication is coherent, credible, and aligned with long-term objectives. Our strategic work often informs brand direction, campaign architecture, reputation management, and crisis response."
+        description: "We define logic before creative. From message frameworks to crisis response, we ensure communication is coherent, credible, and aligned with long-term objectives."
     },
     {
         title: "Creative & Brand Systems",
-        description: "We design visual and conceptual systems rather than isolated assets. From brand identities and logos to campaign concepts and creative direction, our focus is on consistency, recognisability, and refinement across all touchpoints. Every output sits within a broader system - designed to scale and evolve."
+        description: "We design systems, not just assets. Our focus is on consistency and refinement, ensuring every visual output sits within a broader structure designed to scale."
     },
     {
         title: "Media Execution & Amplification",

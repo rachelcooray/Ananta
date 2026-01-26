@@ -18,7 +18,7 @@ const ProjectsPage = () => {
                 >
                     <p className="text-ananta-gold uppercase tracking-widest text-xs font-semibold mb-6">Our Work</p>
                     <h1 className="text-4xl md:text-6xl font-serif text-white mb-8">
-                        Selected <span className="text-ananta-gold italic">Proje</span>cts
+                        Selected <span className="text-ananta-gold italic">Projects</span>
                     </h1>
                     <p className="text-xl text-gray-400 max-w-2xl font-light">
                         Case studies in narrative strategy, cultural engineering, and lasting influence.

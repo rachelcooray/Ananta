@@ -48,7 +48,7 @@ const Hero = () => {
                     className="mt-12"
                 >
                     <Link to="/philosophy" className="group inline-flex items-center gap-3 border border-ananta-gold/50 text-ananta-gold px-10 py-4 hover:bg-ananta-gold hover:text-ananta-bg transition-all duration-300 uppercase tracking-widest text-xs font-semibold">
-                        Discover The Narrative
+                        Explore The Narrative
                         <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
                     </Link>
                 </motion.div>
@@ -59,7 +59,7 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.5, duration: 1 }}
-                className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white/30 text-xs tracking-widest uppercase"
+                className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white/50 text-xs tracking-widest uppercase"
             >
                 Scroll to Explore
             </motion.div>

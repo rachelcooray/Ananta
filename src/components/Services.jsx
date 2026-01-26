@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 const services = [
     {
         title: "Strategy & Narrative Architecture",
-        description: "We define the underlying logic before any creative is produced. This includes message frameworks, positioning, tone, and narrative hierarchy—ensuring that communication is coherent, credible, and aligned with long-term objectives. Our strategic work often informs brand direction, campaign architecture, reputation management, and crisis response."
+        description: "We define logic before creative. From message frameworks to crisis response, we ensure communication is coherent, credible, and aligned with long-term objectives."
     },
     {
         title: "Creative & Brand Systems",
-        description: "We design visual and conceptual systems rather than isolated assets. From brand identities and logos to campaign concepts and creative direction, our focus is on consistency, recognisability, and refinement across all touchpoints. Every output sits within a broader system—designed to scale and evolve."
+        description: "We design systems, not just assets. Our focus is on consistency and refinement, ensuring every visual output sits within a broader structure designed to scale."
     },
     {
         title: "Media Execution & Amplification",
@@ -22,7 +22,7 @@ const Services = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mb-16">
                     <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">Our Mandate</h2>
-                    <p className="text-gray-400 max-w-2xl">Strategy, Creative, and Execution — Defined by purpose.</p>
+                    <p className="text-gray-400 max-w-2xl">Strategy, Creative, and Execution - Defined by purpose.</p>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -43,7 +43,7 @@ const Services = () => {
                                 <h3 className="text-2xl font-serif text-white mb-6 group-hover:text-ananta-gold transition-colors duration-300">
                                     {service.title}
                                 </h3>
-                                <p className="text-gray-400 font-light leading-relaxed text-sm opacity-80 group-hover:opacity-100 transition-opacity">
+                                <p className="text-gray-300 font-light leading-relaxed text-sm opacity-80 group-hover:opacity-100 transition-opacity">
                                     {service.description}
                                 </p>
                             </div>

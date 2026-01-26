@@ -24,7 +24,7 @@ const Home = () => {
             <section className="py-16 bg-white/[0.02] border-y border-white/5">
                 <div className="max-w-3xl mx-auto px-6 text-center">
                     <p className="text-gray-400 font-light text-lg italic mb-6">
-                        "True influence is not about volume—it is about precision. We do not design for the feed; we design for the legacy."
+                        "True influence is not about volume - it is about precision. We do not design for the feed; we design for the legacy."
                     </p>
                     <p className="text-white font-serif">Kavisha Ratnayaka</p>
                     <p className="text-ananta-gold text-xs uppercase tracking-widest mt-2">Founder</p>

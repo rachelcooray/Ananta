@@ -6,7 +6,7 @@ const steps = [
     {
         icon: ScanSearch,
         title: "Diagnosis",
-        desc: "We begin by understanding context—audience, power dynamics, reputational risk, and strategic intent. This phase defines what must be said, what should not be said, and where communication must sit."
+        desc: "We begin by understanding context - audience, power dynamics, reputational risk, and strategic intent. This phase defines what must be said, what should not be said, and where communication must sit."
     },
     {
         icon: PencilRuler,
@@ -21,7 +21,7 @@ const steps = [
     {
         icon: BarChart3,
         title: "Sustainment",
-        desc: "Where required, we monitor performance, refine narratives, and maintain consistency over time—ensuring that communication remains credible and aligned as contexts evolve."
+        desc: "Where required, we monitor performance, refine narratives, and maintain consistency over time - ensuring that communication remains credible and aligned as contexts evolve."
     }
 ];
 

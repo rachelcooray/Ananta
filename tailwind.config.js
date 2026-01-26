@@ -16,7 +16,7 @@ export default {
         }
       },
       fontFamily: {
-        serif: ["'Inter'", "sans-serif"],
+        serif: ["'Cormorant Garamond'", "serif"],
         sans: ["'Inter'", "sans-serif"],
       },
       backgroundImage: {

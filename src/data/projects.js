@@ -12,6 +12,7 @@
  *    - coverImage: Import an image at the top and use the variable name here.
  *    - galleryImages: An array of imported images [img1, img2].
  *    - videoUrl: Optional YouTube embed URL (or null).
+ *    - videoFile: Optional imported local video file (e.g., .mp4). Takes precedence over videoUrl if both are present.
  *    - outcomes: Array of bullet points ['Outcome 1', 'Outcome 2'].
  *    - scope: String listing services provided.
  */
@@ -20,6 +21,13 @@
 // Ideally these would be specific project images
 import heroBg from '../assets/hero-bg.png';
 import missionVisual from '../assets/mission-visual.png';
+
+// Valentina Project Assets
+import valentina1 from '../assets/projects/Valentina/valentina1.mp4';
+import valentina2 from '../assets/projects/Valentina/valentina2.mp4';
+import valentina3 from '../assets/projects/Valentina/valentina3.mp4';
+import valentina4 from '../assets/projects/Valentina/valentina4.mp4';
+import valentina5 from '../assets/projects/Valentina/valentina5.mp4';
 
 export const projects = [
     {
@@ -36,6 +44,7 @@ export const projects = [
         coverImage: heroBg,
         galleryImages: [missionVisual, heroBg],
         videoUrl: null,
+        videoFile: null,
         outcomes: [
             'Repositioned brand identity',
             'Developed "Trust in Motion" framework',
@@ -57,6 +66,7 @@ export const projects = [
         coverImage: missionVisual,
         galleryImages: [heroBg, missionVisual],
         videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder
+        videoFile: null,
         outcomes: [
             '2M+ Global Reach',
             'Featured in ArtForum & Monocle',
@@ -76,11 +86,33 @@ export const projects = [
         coverImage: heroBg,
         galleryImages: [missionVisual],
         videoUrl: null,
+        videoFile: null,
         outcomes: [
             '150+ C-Level Attendees',
             'Coverage in TechCrunch & Wired',
             'Established ongoing policy working group'
         ],
         scope: 'Event Narrative, Speaker Coaching, Media Relations'
+    },
+    {
+        id: 'valentina',
+        title: 'Valentina',
+        shortDescription: 'Project Valentina showcasing our latest multimedia work.',
+        fullDescription: `
+            A collection of visual narratives and digital storytelling for Valentina.
+            
+            This project features a series of high-impact video productions demonstrating our capability in creating immersive brand experiences.
+        `,
+        coverImage: heroBg, // Placeholder
+        galleryImages: [], // No images provided yet
+        videoUrl: null,
+        videoFile: valentina1,
+        galleryVideos: [valentina2, valentina3, valentina4, valentina5],
+        outcomes: [
+            'Multimedia Content Production',
+            'Brand Storytelling',
+            'Visual Identity'
+        ],
+        scope: 'Video Production, Creative Direction'
     }
 ];

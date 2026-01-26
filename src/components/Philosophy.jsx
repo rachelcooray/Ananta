@@ -16,7 +16,7 @@ const Philosophy = () => {
                     <div className="md:col-span-5 text-left">
                         <p className="text-ananta-gold uppercase tracking-[0.2em] mb-6 font-medium text-sm">Our Philosophy</p>
                         <h2 className="text-4xl md:text-6xl font-serif text-white mb-8 leading-tight">
-                            Why Pick <br /><span className="text-gray-500">Ananta?</span>
+                            Why Choose <br /><span className="text-gray-500">Ananta?</span>
                         </h2>
                         <div className="w-16 h-[1px] bg-ananta-gold/50 mb-8"></div>
 
@@ -28,14 +28,14 @@ const Philosophy = () => {
                     {/* Content Column */}
                     <div className="md:col-span-7 space-y-8 text-gray-400 font-light leading-relaxed text-lg text-left">
                         <p>
-                            Ananta operates at the intersection of media, strategy, and influence in a landscape where <span className="text-white font-normal border-b border-ananta-gold/30 pb-0.5">visibility is often mistaken for impact</span>. In an environment driven by speed and volume, clarity is easily lost.
+                            Ananta operates where media, strategy, and influence intersect. In a landscape where <span className="text-white font-normal border-b border-ananta-gold/30 pb-0.5">visibility is often mistaken for impact</span>, clarity is easily lost.
                         </p>
                         <p>
-                            We approach media as a problem to be understood before it is expressed. Through careful analysis of context, intent, audience, and risk, we build strategic frameworks that guide every creative decision.
+                            We treat media as a problem to be understood before it is expressed. By analyzing context, intent, and risk, we build frameworks that evaluate every creative decision.
                         </p>
                         <div className="bg-white/5 p-6 border-l-2 border-ananta-gold">
                             <p className="text-gray-300 text-base">
-                                Our work is not reactive or attention-seeking; it is <span className="text-white font-normal">precise, structured, and grounded in purpose</span>. Creative direction emerges from clarity. We do not amplify noise—we shape narratives that settle naturally into their space.
+                                Our work is not reactive or attention-seeking; it is <span className="text-white font-normal">precise, structured, and grounded in purpose</span>. Creative direction emerges from clarity. We do not amplify noise - we shape narratives that settle naturally into their space.
                             </p>
                         </div>
                     </div>

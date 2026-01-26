@@ -67,8 +67,21 @@ const ProjectDetailPage = () => {
                             ))}
                         </motion.div>
 
-                        {/* Video Section if available */}
-                        {project.videoUrl && (
+                        {/* Local Video File */}
+                        {project.videoFile && (
+                            <div className="mt-16 bg-black aspect-video rounded-sm overflow-hidden border border-white/10">
+                                <video
+                                    src={project.videoFile}
+                                    controls
+                                    className="w-full h-full"
+                                >
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        )}
+
+                        {/* External Video Embed */}
+                        {!project.videoFile && project.videoUrl && (
                             <div className="mt-16 bg-black aspect-video rounded-sm overflow-hidden border border-white/10">
                                 <iframe
                                     src={project.videoUrl}
@@ -90,6 +103,24 @@ const ProjectDetailPage = () => {
                                             alt={`Gallery ${idx + 1}`}
                                             className="w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-700"
                                         />
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+
+                        {/* Video Gallery */}
+                        {project.galleryVideos && project.galleryVideos.length > 0 && (
+                            <div className="mt-16 space-y-8">
+                                <h3 className="text-ananta-gold uppercase tracking-widest text-xs font-bold mb-4">Additional Media</h3>
+                                {project.galleryVideos.map((vid, idx) => (
+                                    <div key={idx} className="relative bg-black aspect-video rounded-sm overflow-hidden border border-white/10">
+                                        <video
+                                            src={vid}
+                                            controls
+                                            className="w-full h-full"
+                                        >
+                                            Your browser does not support the video tag.
+                                        </video>
                                     </div>
                                 ))}
                             </div>

@@ -21,7 +21,7 @@ const Sectors = () => {
         },
         {
             title: "Curated Media Systems",
-            desc: "Bespoke communication systems designed from the ground up. These engagements focus on architecture—brand, narrative, creative, and platform logic—handed over for long-term use or internal deployment."
+            desc: "Bespoke communication systems designed from the ground up. These engagements focus on architecture - brand, narrative, creative, and platform logic - handed over for long-term use or internal deployment."
         }
     ];
 

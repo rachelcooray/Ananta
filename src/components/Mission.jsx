@@ -14,7 +14,7 @@ const Mission = () => {
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 1 }}
-                        className="relative hidden lg:block"
+                        className="relative"
                     >
                         <div className="absolute inset-0 border border-ananta-gold/20 translate-x-4 translate-y-4"></div>
                         <img src={missionVisual} alt="Abstract Architecture" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700 opacity-80" />

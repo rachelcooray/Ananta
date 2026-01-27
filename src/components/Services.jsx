@@ -21,6 +21,7 @@ const Services = () => {
         <section id="services" className="py-16 md:py-24 bg-ananta-bg border-t border-white/5">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mb-16">
+                    <p className="text-ananta-gold uppercase tracking-widest text-xs font-semibold mb-6">Our Services</p>
                     <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">Our Mandate</h2>
                     <p className="text-gray-400 max-w-2xl">Strategy, Creative, and Execution - Defined by purpose.</p>
                 </div>

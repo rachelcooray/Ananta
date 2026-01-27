@@ -30,6 +30,7 @@ const Mission = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
                     >
+                        <p className="text-ananta-gold uppercase tracking-widest text-xs font-semibold mb-6">About Us</p>
                         <h2 className="text-4xl md:text-5xl font-serif mb-8 text-white">
                             Who Are <span className="text-ananta-gold">We?</span>
                         </h2>

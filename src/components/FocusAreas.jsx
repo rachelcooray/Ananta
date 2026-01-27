@@ -13,6 +13,7 @@ const FocusAreas = () => {
     return (
         <section className="py-24 bg-ananta-bg relative overflow-hidden">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <p className="text-ananta-gold uppercase tracking-widest text-xs font-semibold mb-6 text-center">Our Expertise</p>
                 <h2 className="text-3xl md:text-5xl font-serif text-white mb-16 text-center">Sectors & Focus Areas</h2>
                 <div className="space-y-8">
                     {sectors.map((sector, index) => (
